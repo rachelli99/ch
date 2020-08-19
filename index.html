@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>李佳润</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel = "icon" href = "./images/icon.png" type = "image/x-icon"> 
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/portrait.jpg" alt="" /></span>
+							<h1 id="title">李佳润</h1>
+							<p>UCLA计算机大三学生</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">主页</span></a></li>
+								<li><a href="#projects" id="projects-link"><span class="icon solid fa-th-list">作品</span></a></li>
+								<li><a href="#skills" id="skills-link"><span class="icon solid fa-search">实习</span></a></li>
+								<li><a href="#resume" id="resume-link"><span class="icon solid fa-user">联系</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="mailto:rachel9901@icloud.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/rachelli99" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/jiarun-rachel-li/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://www.facebook.com/rachel.li.1232760?ref=bookmarks" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://rachelli99.github.io/" class="icon solid fa-language" id="language_switch"><span class="label">Language</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+		<div id="ch">
+			<div id="main">
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+                            <a class="image main_profile"><img src="images/portrait.jpg" class="round"/></a>
+							<header>
+								<h2 class="alt"><strong>李佳润</strong></h2>
+								<p>你好！我是李佳润。现在是一名加州大学洛杉矶分校 (UCLA) 计算机专业大三的学生。</p>
+							</header>
+
+							<footer>
+								<a href="#projects" class="button scrolly">李佳润是谁？</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- projects -->
+					<section id="projects" class="two">
+						<div class="container">
+
+							<header>
+								<h2>作品及社团实践</h2>
+							</header>
+
+							<p class="card_padding">这些是我曾经做过的一些作品们。它们有的是社团项目，有的是学校课题，有的是为了来满足我探索的好奇心的 :)</p>
+
+							<div class="row">
+								<div class="col-6 col-12-mobile">
+									<article class="item shadow">
+										<div class="card_background" style="background-color: rgba(248,242,190,0.5)">
+											<a href="https://romantic-visvesvaraya-10fce2.netlify.com/" class="image fit"><img src="images/cipher_salad.png" alt="Caesar Wheel" /></a>
+										</div>
+										<header>
+											<h1 class="card_title">密码沙拉 </h1>
+											<h3 class="card_description">
+												密码沙拉是我在ACM社团里制作的一款简单易懂的网络安全的迷你课程，现为洛杉矶CityLab网络安全课程的一部分。
+												这个作品的内容包含探索密码的历史，以及如今网络加密的方法，例如密码学中的caesar密码，atbash码，vigenere码，以及现代的简化的Base64以及AES加密方法。
+												在制作方面，我们前端利用了Figma, Reactjs, Bulma, 和Animejs来设计及编写交互式内容，后端利用了Firebase来进行密码的保存及分享。</h3>
+										</header>
+									</article>
+									<div style="padding: 2%"></div>
+									<article class="item shadow">
+										<div class="card_background" style="background-color: seashell"><a class="image fit"><img src="images/data_flow.png" alt="Data Flow Charts" /></a></div>
+										<header>
+											<h1 class="card_title">数据流</h1>
+											<h3 class="card_description">
+												A fast and interactive debug console, created with jquery and chartjs, that
+												produces a diverse set of charts
+												for large scale csv, json, and xml input (> 10k entries). This was used as a tool to
+												analyze the offsets, id, variable properties, and size used for forwarding
+												technology in compiler optimization.</h3>
+										</header>
+									</article>
+									<div style="padding: 2%"></div>
+									<article class="item shadow">
+										<div class="card_background" style="background-color:rgba(216,191,216,0.4)">
+											<a href="https://github.com/rachelli99/Geenomics" target="_blank" class="image fit"><img src="images/geenomics3.png" alt="Geenomics demo" /></a>
+										</div>
+										<header>
+											<h2 class="card_title">基因树</h2>
+											<h3 class="card_description">
+												为提升现有基因存储程序的效率，帮助研究人员更好地搜索及比较常见疾病和细菌的DNA，我利用面向对象的开放方式使用C++编写了一个可以编辑、存储、查找以及匹配基因组序列的基因库，并由此更快的识别出变异的细菌菌株。
+												运用此程序，用户可以添加新生物基因组，查找基因组，以及在基因库里鉴定出与某一基因高度匹配的其他基因组。
+												在架构方面，我利用了字典树 (Trie) 的数据结构，以减少空间和时间复杂度，使程序可以快速完成用户匹配或修改指令。</h3>
+										</header>
+									</article>
+								</div>
+								
+								<div class="col-6 col-12-mobile">
+									<article class="item shadow">
+										<div class="card_background" style="background-color: rgba(153,200,220,0.5);">
+											<a href="https://github.com/rachelli99/ar-tour-guide" class="image fit"><img src="images/tourAR.png" alt="Tour.AR demo" /></a>
+										</div>
+										<header>
+											<h2 class="card_title">AR校园向导</h2>
+											<h3 class="card_description">
+												为改造现访问者浏览学校的方式，提升浏览效率并增加游览乐趣，我们团队合并了现有的静态学校地图介绍以及学生导览员，创造了iOS系统的增强现实(Augmented Reality)导览软件。
+												通过本软件，用户只需打开相机扫描学校建筑物，一款运用3D模型创作的学校吉祥物就会出现在屏幕上进行周围环境的讲解，包括教学楼背景、奇闻逸事、冼手间及餐厅导引。
+												在本软件中，我使用Figma设计了用户界面及提升用户体验、并在Xcode上使用swift编写了登陆界面及环境讲解介绍。
+												此外我们还运用微软Azure的文字到语音转换系统，为介绍内容提供同步语音朗读
+
+												This project is an IOS App to improve visitors' experience when touring UCLA
+												by using an augmented reality Bruin introducing the various places on
+												campus. By working on this, I gained valuable experience working as a group,
+												where we implemented page functionality in Swift, loaded area-based introduction
+												text based on location detection. In addition, I designed user experience
+												using Figma, and resolved size conflict for the app to be responsive on different devices.</h3>
+										</header>
+									</article>
+									<div style="padding: 2%"></div>
+									<article class="item shadow">
+										<div class="card_background" style="background-image: url('images/pic11.jpg');">
+											<a href="resources/sr_techniques_evaluation.pdf" target="_blank" class="image fit"><img src="images/sr_eval.png" alt="Super Resolution Evaluation" /></a>
+										</div>
+										<header>
+											<h1 class="card_title">超分辨率评估</h1>
+											<h3 class="card_description">
+												本文评估了三种不同的通过机器学习提升图像分辨率的算法。
+用于磁共振成像的超分辨率技术。
+其中包括：增强型深剩余网络（EDSR）、快速准确的成像超分辨率（RAISR），
+以及宽激活深度剩余网络（WDSR）。我用乳胶写论文，
+它具有平均绝对误差、均方误差和峰值信噪比来评估算法。
+我使用不同的权重标准化和批量标准化因子值来比较结果。
+												This paper evaluated three different machine learning based, 
+												super-resolution techniques used for MRI images. 
+												These include: Enhanced Deep Residual Networks (EDSR), Rapid and Accurate Imaging Super-Resolution (RAISR), 
+												and Wide Activation Deep Residual Networks (WDSR). I used LaTex to write the paper itself, 
+												which has mean absolute error, mean square error, and peak noise to signal ratio for evaluating the algorithms. 
+												I utilized various weight normalization and batch normalization factor values to compare the results. </h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- Skills -->
+					<section id="skills" class="three">
+						<div class="container">
+
+							<header>
+								<h2>实习经历</h2>
+							</header>
+
+							<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
+
+                            <article class="item shadow">
+								<div class="card_background" style="background-image: url('images/pic11.jpg'); padding: 1.3rem 0">
+									<h3 class="card_title text_white">腾讯医疗AI实验室 | <i>研究开发成员</i> | 2020.05 - 2020.08</h3>
+								</div>
+								<header>
+									<div class="card_padding">
+										无接触的心率测量作为一种新式测量方法可在医院对强传染性及病重患者进行更安全的生命体征检测。为探索无接触心率测量，我所在的三人小组及两位导师一起研发了一款能够在移动设备上随时监测心率的程序
+										本程序利用测量额头血液流动时的光电血管容积 (PPG) 信号变化，来远程无接触测量心跳
+										本项目的前端利用了Javascript、Bootstrap、D3.js, 以及TensowFlow训练的MediaPipe Facemesh模型等技术，后期在Heroku上进行了部署。心跳测量过程包括分通道提取RGB信号，过滤信号，进行傅立叶转换提取频率并生成心跳
+                                    Worked on Remote Beats, a project to monitor heart rate remotely using
+                                    photoplethysmogram (PPG) signals. This is done by measuring the RGB channel
+                                    of in the area of forehead and cheeks, acquiring the signals, and generating the
+                                    heart rate measurement. Signal processing involves creating a bandpass filter
+                                    to detrend and using a Fourier transform to calculate the frequency.
+									Technologies I used included Javascript and Bootstrap to improve user experience, 
+									and google facemesh model to improve location accuracy.</div>
+                                </header>
+                            </article>
+							<div style="padding: 2%"></div>
+                            <article class="item shadow">
+                                <div class="card_background" style="background-image: url('images/pic10.jpeg'); padding: 1.3rem 0">
+                                    <h3 class="card_title text_white">墨子谷科技有限公司 | <i>电子书开发实习生</i> | 2019.08 - 2019.09</h3>
+								</div>
+                                <header>
+									<div class="card_padding">
+										在传统微信公众号文章被新媒体严重分散流量的大趋势下，通过发展新型交互式电子书，研究不同人群的阅读习惯，阅读风格，为公司开展潜在的新业务进行探索
+										编写了四个微信平台的交互式电子书使用Python、HTML和CSS。设计每个产品的用户界面并分析其用户体验，并根据用户数据反馈分析并设计下一产品。电子书阅读量为1000+人，平均阅读时长为两分钟以上
+										通过本实习，从产品设计、到产品编写、到后期数据跟踪及分析，自己对于产品技术和市场有了更多的了解和提升
+                                    During my time at Motigo, I created four interactive ebooks on the platform WeChat
+                                    to help the company explore new potential businesses, since traditional articles are
+                                    losing their popularity to new types of media. I utilized a combination of Python,
+                                    HTML, and CSS to create these ebooks. Lastly, I designed the user interface, and
+                                    analyzed the user experience of each product by researching targeted user group
+                                    characteristics, analyzing user feedback, and highlighting the advantages of
+                                    interactive ebooks.</div>
+                                </header>
+                            </article>
+						</div>
+					</section>
+
+				<!-- Resume -->
+					<section id="resume" class="four">
+						<div class="container">
+
+							<header>
+								<h2>联系</h2>
+							</header>
+
+							<p>
+								这是我的<a href="resources/resume.pdf">简历</a>，
+								欢迎<a href="mailto:rachel9901@icloud.com">邮件</a>联系我！ 
+                            </p>
+
+						</div>
+					</section>
+
+			</div>
+			<!-- Footer -->
+			<div id="footer">
+				<ul class="copyright">
+					<li>&copy; 李佳润 </li>
+				</ul>
+			</div>
+		</div>
+		
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				// var en = true;
+
+				// function switch_language(){
+				// 	en = !en;
+				// 	if(en){
+				// 		document.getElementById("en").style.display="block";
+				// 		document.getElementById("ch").style.display="none";
+				// 	}
+				// 	else{
+				// 		document.getElementById("en").style.display="none";
+				// 		document.getElementById("ch").style.display="block";
+				// 	}
+				// }
+
+				// window.onload = function(){
+				// 	switch_language();
+				// 	document.getElementById("language_switch").addEventListener("click", switch_language, false);
+				// }
+			</script>
+	</body>
+</html>
