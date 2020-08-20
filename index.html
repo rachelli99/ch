@@ -178,16 +178,13 @@
 								</div>
 								<header>
 									<div class="card_padding">
-										无接触的心率测量作为一种新式测量方法可在医院对强传染性及病重患者进行更安全的生命体征检测。为探索无接触心率测量，我所在的三人小组及两位导师一起研发了一款能够在移动设备上随时监测心率的程序
-										本程序利用测量额头血液流动时的光电血管容积 (PPG) 信号变化，来远程无接触测量心跳
-										本项目的前端利用了Javascript、Bootstrap、D3.js, 以及TensowFlow训练的MediaPipe Facemesh模型等技术，后期在Heroku上进行了部署。心跳测量过程包括分通道提取RGB信号，过滤信号，进行傅立叶转换提取频率并生成心跳
-                                    Worked on Remote Beats, a project to monitor heart rate remotely using
-                                    photoplethysmogram (PPG) signals. This is done by measuring the RGB channel
-                                    of in the area of forehead and cheeks, acquiring the signals, and generating the
-                                    heart rate measurement. Signal processing involves creating a bandpass filter
-                                    to detrend and using a Fourier transform to calculate the frequency.
-									Technologies I used included Javascript and Bootstrap to improve user experience, 
-									and google facemesh model to improve location accuracy.</div>
+										无接触的心率测量作为一种新式测量方法可在医院对强传染性及病重患者进行更安全的生命体征检测。
+										在本项目中，我们通过研发一款能够在移动设备上利用面部图像而随时监测心率的程序，来探索基于锚点定位的面部PPG特征进行的时序健康状态分析。
+										本程序利用测量额头血液流动时的光电血管容积 (PPG) 信号变化，来远程无接触测量心跳。
+										在开发中，我们的前端通过Javascript、Bootstrap、D3.js来调试UI界面和优化用户体验。
+										后端使用MediaPipe利用TensorFlow.js开发的facemesh进行人脸抓拍，Butterworth filter进行提取的RBG信号过滤，
+										最后数加权后峰值间隔平均值得到心跳。我们在Heroku上部署了我们的程序以支持电脑及移动设备的运行。
+									</div>
                                 </header>
                             </article>
 							<div style="padding: 2%"></div>
